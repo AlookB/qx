@@ -8,7 +8,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/restnet\.cn\/api\/wp\/checkGolden url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Anki.js
+^https:\/\/restnet\.cn\/api\/wp\/checkGolden url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/bz.js?token=GHSAT0AAAAAACG4RKVV73Y3EYYEBTVH3QVCZHN4LXA
 
 [mitm]
 hostname = restnet.cn
