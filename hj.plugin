@@ -13,5 +13,5 @@ http-request ^https://api.revenuecat.com/v1/(receipts|subscribers)/* script-path
 
 
 [MITM]
-hostname = 
+hostname = api.revenuecat.com,lchttpapi.xczim.com,xianbeikeji.com,
 
