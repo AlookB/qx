@@ -1,0 +1,9 @@
+#!name=优雅老师自用
+#!desc=各类 App 合集
+#!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/CaiXin
+
+[Script]
+http-request ^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js, timeout=10, tag=财新会员
+
+[MITM]
+hostname = gateway.caixin.com
