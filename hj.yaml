@@ -21,27 +21,9 @@ scriptings:
     match: ^https://api.revenuecat.com/v1/(receipts|subscribers)/*
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/PureLibro.js
     body_required: true
-- http_response:
-    name: iTunes合集
-    match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
-    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
-    body_required: true
-- http_response:
-    name: Revenuecat合集
-    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-    body_required: true
-- http_response:
-    name: Revenuecat清缓存
-    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-    body_required: true 
-
-
     
 mitm:
   hostnames:
   - api.revenuecat.com
-  - buy.itunes.apple.com
   - xianbeikeji.com
   - lchttpapi.xczim.com
