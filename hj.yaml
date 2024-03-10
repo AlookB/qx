@@ -2,31 +2,10 @@ name: 优雅老师的🐿合集
 description: 小日常会员
 scriptings:
 - http_response:
-    name: iTunes合集
-    match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
-    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
+    name: 读不舍手 VIP
+    match: ^https?:\/\/api\.revenuecat\.com\/v1\/receipts
+    script_url: https://raw.githubusercontent.com/AlookB/qx/main/dbss.js
     body_required: true
-- http_response:
-    name: Revenuecat合集
-    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-    body_required: true
-- http_response:
-    name: Revenuecat清缓存
-    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
-    body_required: true
-- http_response:
-    name: 墨鱼Revenuecat
-    match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
-    script_url: https://gist.githubusercontent.com/ddgksf2013/dbb1695cd96743eef18f3fac5c6fe227/raw/revenuecat.js
-    timeout: 60
-    body_required: true
-- http_request:
-    name: 墨鱼Delete Header
-    match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers)
-    script_url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/deleteHeader.js
-    timeout: 60    
 - http_response:
     name: 小日常 VIP
     match: ^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$
@@ -42,7 +21,21 @@ scriptings:
     match: ^https://api.revenuecat.com/v1/(receipts|subscribers)/*
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/PureLibro.js
     body_required: true
-
+- http_response:
+    name: iTunes合集
+    match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
+    body_required: true
+- http_response:
+    name: Revenuecat合集
+    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
+    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
+    body_required: true
+- http_response:
+    name: Revenuecat清缓存
+    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
+    script_url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js
+    body_required: true 
 
 
     
