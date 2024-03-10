@@ -13,49 +13,51 @@ var objc = JSON.parse($response.body);
     objc = 
 
 {
-  "request_date_ms" : 1695823444784,
-  "request_date" : "2023-09-27T14:04:04Z",
+  "request_date" : "2024-03-10T07:19:46Z",
+  "request_date_ms" : 1710055186394,
   "subscriber" : {
-    "last_seen" : "2023-09-27T13:53:14Z",
-    "first_seen" : "2023-09-27T13:53:14Z",
-    "original_application_version" : "187",
+    "non_subscriptions" : {
+
+    },
+    "first_seen" : "2024-01-07T02:26:07Z",
+    "original_application_version" : "1.0",
     "other_purchases" : {
 
     },
-    "management_url" : "https://apps.apple.com/account/subscriptions",
+    "management_url" : null,
     "subscriptions" : {
-      "reader.lifetime.pro" : {
-        "store_transaction_id" : "190001736542492",
-        "expires_date" : "2099-10-27T14:03:52Z",
+      "com.valo.reader.vip2.year" : {
         "is_sandbox" : false,
-        "refunded_at" : null,
-        "unsubscribe_detected_at" : null,
-        "auto_resume_date" : null,
-        "grace_period_expires_date" : null,
-        "period_type" : "normal",
-        "purchase_date" : "2023-09-27T14:03:52Z",
-        "billing_issues_detected_at" : null,
         "ownership_type" : "PURCHASED",
-        "store" : "app_store",
-        "original_purchase_date" : "2023-09-27T14:03:55Z"
+        "billing_issues_detected_at" : null,
+        "period_type" : "normal",
+        "expires_date" : "2099-12-18T01:04:17Z",
+        "grace_period_expires_date" : null,
+        "unsubscribe_detected_at" : null,
+        "original_purchase_date" : "2022-09-08T01:04:18Z",
+        "purchase_date" : "2022-09-08T01:04:17Z",
+        "store" : "app_store"
       }
     },
     "entitlements" : {
-      "pro" : {
-        "expires_date" : "2099-10-27T14:03:52Z",
-        "purchase_date" : "2023-09-27T14:03:52Z",
-        "product_identifier" : "reader.lifetime.pro",
+      "vip2" : {
+        "expires_date" : "2099-12-18T01:04:17Z",
+        "purchase_date" : "2022-09-08T01:04:17Z",
+        "product_identifier" : "com.valo.reader.vip2.year",
         "grace_period_expires_date" : null
+      },
+      "com.valo.reader.vip2.year" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "2024-03-09T17:30:54Z",
+        "product_identifier" : "com.valo.reader.vip2.year",
+        "expires_date" : "2024-03-09T18:30:54Z"
       }
     },
-    "original_purchase_date" : "2023-09-27T13:52:21Z",
-    "original_app_user_id" : "$RCAnonymousID:e2b381c2f7204bf69899c1bc1318bb90",
-    "non_subscriptions" : {
-
-    }
-  }
+    "original_purchase_date" : "2024-01-07T02:27:16Z",
+    "original_app_user_id" : "$RCAnonymousID:cb1253c7edc045bb80d88cc8b45b37ec",
+    "last_seen" : "2024-03-10T01:01:04Z"
+  },
 }
 
-
-
+        
 $done({body : JSON.stringify(objc)});
