@@ -24,6 +24,6 @@ scriptings:
     
 mitm:
   hostnames:
-  -  api.revenuecat.com
-  -  xianbeikeji.com
-  -  lchttpapi.xczim.com
+  - api.revenuecat.com
+  - xianbeikeji.com
+  - lchttpapi.xczim.com
