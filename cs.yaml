@@ -6,3 +6,7 @@ scriptings:
     match: ^https?:\/\/api\.revenuecat\.com\/v1\/receipts
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/dbss.js
     body_required: true
+
+mitm:
+  hostnames:
+  - api.revenuecat.com
