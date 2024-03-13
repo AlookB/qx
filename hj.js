@@ -4,7 +4,6 @@
 [rewrite_local]
 #读不舍手
 ^https?:\/\/api\.revenuecat\.com\/v1\/receipts url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/dbss.js
-
 #西窗烛 VIP
 ^https?:\/\/lchttpapi\.xczim\.com url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/xcz.js
 
