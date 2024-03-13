@@ -3,7 +3,7 @@
 App: 西窗烛 VIP
 
 [rewrite_local]
-^https?:\/\/lchttpapi\.xczim\.com url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/xcz.js
+^https?:\/\/lchttpapi\.xczim\.com/* url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/xcz.js
 
 [MITM]
 hostname = lchttpapi.xczim.com
