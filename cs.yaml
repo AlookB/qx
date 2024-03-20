@@ -2,11 +2,11 @@ name: 优雅老师的🐿合集
 description: 小日常会员
 scriptings:
 - http_response:
-    name: 读不舍手 VIP
-    match: ^https?:\/\/api\.revenuecat\.com\/v1\/receipts
-    script_url: https://raw.githubusercontent.com/AlookB/qx/main/dbss.js
-    body_required: true
+    name: Proknockout VIP
+    match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
+    script_url: https://raw.githubusercontent.com/AlookB/qx/main/Proknockout.js
+    body_response: true
 
 mitm:
   hostnames:
-  - api.revenuecat.com
+  - buy.itunes.apple.com
