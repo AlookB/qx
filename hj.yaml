@@ -3,7 +3,7 @@ description: 小日常会员
 scriptings:
 - http_response:
     name: 读不舍手 VIP
-    match: ^https?:\/\/api\.revenuecat\.com\/v1\/receipts
+    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/dbss.js
     body_required: true
 - http_response:
