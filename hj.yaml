@@ -1,5 +1,5 @@
-name: 优雅老师的🐿合集
-description: 小日常会员
+name: 🐿小松鼠解锁合集
+description: 包含、读不舍手、小日常、西窗烛、美图秀秀、Spotify 解锁合集。Raw：https://raw.githubusercontent.com/AlookB/qx/main/hj.yaml
 scriptings:
 - http_response:
     name: 读不舍手 VIP
@@ -41,11 +41,13 @@ scriptings:
 mitm:
   hostnames:
   - api.revenuecat.com
+  #小日常
   - xianbeikeji.com
+  #西窗烛
   - lchttpapi.xczim.com
-  
+  #美图
   - api.posters.meitu.com
   - api-sub.meitu.com
   - '*.xiuxiu.meitu.com'
-  
+  #Spotify
   - spclient.wg.spotify.com
