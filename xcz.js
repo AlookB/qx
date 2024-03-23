@@ -12,5 +12,4 @@ hostname = lchttpapi.xczim.com
 var ania = JSON.parse($response.body);
 ania.membership = true;
 ania.lifetimeMembership = true;
-ania.result = true;
 $done({ body: JSON.stringify(ania) });
