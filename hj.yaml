@@ -30,6 +30,6 @@ mitm:
   - api.revenuecat.com
   - xianbeikeji.com
   - lchttpapi.xczim.com
-  - '*.xiuxiu.meitu.com'
   - api.posters.meitu.com
   - api-sub.meitu.com
+  - '*.xiuxiu.meitu.com'
