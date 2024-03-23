@@ -16,12 +16,12 @@ scriptings:
     match: ^https?:\/\/lchttpapi\.xczim\.com
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/xcz.js
     body_required: true
+
 - http_response:
     name: 美图秀秀 VIP
     match: ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home)
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/mtxx.js
     body_required: true
-
 
 
     
