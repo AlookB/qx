@@ -34,11 +34,6 @@ scriptings:
     script_url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
     body_required: true
     binary_body: true
-- http_response:
-    name: 云听 VIP
-    match: (^https?:\/\/(ytmsout|ytapi|getway)\.radio\.cn|60\.205\.171\.165)\/(contentBiz|publish|rights|(user|ytsrv\/srv)\/(appUser|webPage)\/getUserInfo|app.+)
-    script_url: https://raw.githubusercontent.com/AlookB/qx/main/yt.js
-    body_required: true
     
 - http_response:
     name: 微信屏蔽URL解锁
@@ -69,6 +64,5 @@ mitm:
   - weixin110.qq.com
   - security.wechat.com
   #云听
-  - '*.radio.cn'
-  - 60.205.171.165
+  
 
