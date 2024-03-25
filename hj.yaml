@@ -1,6 +1,7 @@
 name: 🐿小松鼠解锁合集
 description: 优雅老师自用解锁合集包含：读不舍手、小日常、西窗烛、美图秀秀、Spotify App解锁VIP。
 homepage: https://raw.githubusercontent.com/AlookB/qx/main/hj.yaml
+
 scriptings:
 - http_response:
     name: 读不舍手 VIP
@@ -22,7 +23,6 @@ scriptings:
     match: ^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home)
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/mtxx.js
     body_required: true
-
 - http_request:
     name: spotify-json
     match: ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
