@@ -11,7 +11,7 @@
 **************************************
 
 [rewrite_local]
-(^https?:\/\/(ytmsout|ytapi|getway)\.radio\.cn|60\.205\.171\.165)\/(contentBiz|publish|rights|(user|ytsrv\/srv)\/(appUser|webPage)\/getUserInfo|app.+) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yunting.js
+(^https?:\/\/(ytmsout|ytapi|getway)\.radio\.cn|60\.205\.171\.165)\/(contentBiz|publish|rights|(user|ytsrv\/srv)\/(appUser|webPage)\/getUserInfo|app.+) url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/yt.js
 
 [mitm]
 hostname = *.radio.cn, 60.205.171.165
