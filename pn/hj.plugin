@@ -1,7 +1,7 @@
-#!name=解除微信链接限制
-#!desc=解除链接限制
+#!name=优雅老师的 Loon 合集
+#!desc=优雅老师自用合集包括：
 #!homepage=https://github.com/zZPiglet/Task/tree/master
-#!author=@zZPiglet
+#!author= 优雅老师
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/wechatad.png
 
 [Script]
