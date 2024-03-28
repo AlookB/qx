@@ -1,13 +1,20 @@
-#!name=优雅老师的 Loon 合集
-#!desc=优雅老师自用合集包括：
+#!name=优雅老师的🎈合集
+#!desc=优雅老师自用🎈合集包括：
 #!homepage=https://raw.githubusercontent.com/AlookB/qx/main/pn/hj.plugin
+#!openUrl=https://raw.githubusercontent.com/AlookB/qx/main/pn/hj.plugin
 #!author= 优雅老师
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/wechatad.png
 
 [Script]
+#读不舍手
+http-response ^https?:\/\/api\.revenuecat\.com\/v1\/receipts script-path=https://raw.githubusercontent.com/AlookB/qx/main/dbss.js, requires-body=true, timeout=10, tag= 读不舍手
+
+
+
+
 
 http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=10, tag=UnblockURLinWeChat
 
 [MITM]
 
-hostname = weixin110.qq.com, security.wechat.com,
+hostname = api.revenuecat.com, weixin110.qq.com, security.wechat.com,
