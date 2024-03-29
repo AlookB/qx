@@ -21,11 +21,4 @@ http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspams
 
 [MITM]
 
-hostname = 
-#Api
-api.revenuecat.com, 
-#Spotify
-spclient.wg.spotify.com, 
-#WeChat
-weixin110.qq.com, 
-security.wechat.com,
+hostname = api.revenuecat.com, spclient.wg.spotify.com, weixin110.qq.com, security.wechat.com,
