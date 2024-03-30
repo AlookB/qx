@@ -8,15 +8,7 @@
 #!date=2024-03-22 13:22:00
 #!support=约9392行
 #!proxy-select=reject
-#############################################
-# "reject"        策略返回 HTTP 状态码 404,不附带任何额外内容
-# "reject-200"    策略返回 HTTP 状态码 200,不附带任何额外内容
-# "reject-img"    策略返回 HTTP 状态码 200,同时附带 1px gif
-# "reject-dict"   策略返回 HTTP 状态码 200,同时附带一个空的 JSON 对象
-# "reject-array"  策略返回 HTTP 状态码 200,同时附带一个空的 JSON 数组
-# 1.2.3.4/24      /24表示网络的子网掩码长度，即前24位是网络部分，后8位是主机部分。这种表示法常用于描述特定范围内的IP地址
-# 6.7.8.9/32      /32表示整个32位的IP地址都用于表示这一个地址，即单独的一个IP地址
-#############################################
+
 
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
@@ -431,14 +423,7 @@ host-keyword, p3.pstatp.com, reject
 # > 多多视频
 host-suffix, bayescom.com, reject
 
-# > Daum
-host, track.tiara.daum.net, reject
-host, track.tiara.kakao.com, reject
 
-# > 朵朵校友圈 微信小程序去广告
-host-suffix, ad.duoduo.link, reject
-
-# > 盯盯拍 广告联盟已包含
 
 
 
@@ -1468,27 +1453,7 @@ host-suffix, bingads.microsoft.com, reject
 host-suffix, rads.msn.com, reject
 host, mobileads.msn.com, reject
 
-# > WiFi万能钥匙
-host-keyword, app.51y5.net, reject
-host-keyword, apiinit.amap.com, reject
-host-keyword, c.51y5.net, reject
-host-keyword, msg.push.51y5.net, reject
-host-keyword, a.wkanx.com, reject
-host-keyword, c.wkanx.com, reject
-host-keyword, c1.wkanx.com, reject
-host-keyword, ap.51y5.net, reject
-host-keyword, dc.51y5.net, reject
-host-keyword, push-dc.51y5.net, reject
-host-keyword, news-log.51y5.net, reject
-host-keyword, login.push.51y5.net, reject
-host-keyword, news.51y5.net, reject
-host-keyword, cds.51y5.net, reject
-host-keyword, insurance.lianwifi.com, reject
-host-keyword, config.51y5.net, reject
-host-keyword, static.wkanx.com, reject
-host-keyword, config.y5en.com, reject
 
-# > 威锋 广告联盟已包含
 
 
 
