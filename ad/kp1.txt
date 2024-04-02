@@ -3,7 +3,7 @@
 #!author=优雅老师自用，转载自😂
 
 
-hostname =hostname = acs.m.taobao.com, amdc.m.taobao.com,dss0.bdstatic.com, tb1.bdstatic.com, tb2.bdstatic.com, ss0.bdstatic.com, gss0.bdstatic.com, newclient.map.baidu.com,www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api*.tuisong.baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, sa*.tuisong.baidu.com,
+hostname = amdc.m.taobao.com,dss0.bdstatic.com, tb1.bdstatic.com, tb2.bdstatic.com, ss0.bdstatic.com, gss0.bdstatic.com, newclient.map.baidu.com,www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api*.tuisong.baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, sa*.tuisong.baidu.com,
 r6.mo.baidu.com, res.mi.baidu.com, mime.baidu.com, mbd.baidu.com,pan.baidu.com, ndstatic.cdn.bcebos.com, staticsns.cdn.bcebos.com, issuecdn.baidupcs.com, update.pan.baidu.com, fc-video.cdn.bcebos.com, rp.hpplay.cn,appwk.baidu.com,app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.biliapi.net,
 api.gamer.com.tw,pt-starimg.didistatic.com, omgup*.xiaojukeji.com,daijia.kuaidadi.com, as.xiaojukeji.com, capis*.didapinche.com, adx-cn.anythinktech.com, www.didapinche.com,cdn-evone-ceph.echargenet.com,fuwu.nhsa.gov.cn,m*.amap.com, optimus-ads.amap.com,*.googleapis.com, pagead2.googlesyndication.com,
 aag.enmonster.com,napi.ithome.com,api.m.jd.com, dns.jd.com,m.360buyimg.com,open.e.kuaishou.com,api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com,api.coolapk.com,res.kfc.com.cn,img.meituan.net, p*.meituan.net, s3plus.meituan.net, www.meituan.net, flowplus.meituan.net, wmapi.meituan.net, apimobile.meituan.net, apimobile.meituan.com,
@@ -12,10 +12,6 @@ ucmp.sf-express.com,api.pinduoduo.com,acs.m.taobao.com, guide-acs.m.taobao.com, 
 splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com,overseas.weico.cc,ios.wps.cn, mobile-pic.cache.iciba.com,mp.weixin.qq.com, weixin110.qq.com, security.wechat.com,api-mifit-cn2.huami.com,home.mi.com,api.xiachufang.com,client-api-v2.oray.com,
 lchttpapi.xczim.com,hdgateway.zto.com,api.zhihu.com, www.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, zhuanlan.zhihu.com,
 
-# Alibaba
-#  hostname = acs.m.taobao.com, amdc.m.taobao.com       
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
-^https?:\/\/amdc\.m\.taobao\.com url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/amdc.js
 
 #百度
 # hostname = www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api*.tuisong.baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, sa*.tuisong.baidu.com
