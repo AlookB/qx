@@ -7,4 +7,4 @@
 
 
 [MITM]
-hostname = %APPEND% ccmsupport-sz.tenpay.com,
+hostname = %APPEND% ccmsupport-sz.tenpay.com, 
