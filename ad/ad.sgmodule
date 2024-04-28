@@ -4,9 +4,7 @@
 [URL Rewrite]
 #乘车码 housname=ccmsupport-sz.tenpay.com
 ^https?:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
-[Map Local]
 
-[Script]
 
 [MITM]
 hostname = %APPEND% ccmsupport-sz.tenpay.com,
