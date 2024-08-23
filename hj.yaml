@@ -44,7 +44,7 @@ scriptings:
     match: ^https?:\/\/photoby\.hasmash\.com\/app\/browseEvent
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/bksy.js
     body_required: true
-   http_response:
+- http_response:
     name: 边框水印大师 VIP
     match: ^https?:\/\/photoby\.hasmash\.com\/auth\/member
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/bksy1.js
