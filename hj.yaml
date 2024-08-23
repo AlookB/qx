@@ -39,9 +39,14 @@ scriptings:
     match: https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/ps.js
     body_required: true
-
-    
-    
+- http_response:
+    name: 边框水印大师 VIP
+    match: ^https?:\/\/photoby\.hasmash\.com\/app\/browseEvent
+    script_url: https://raw.githubusercontent.com/AlookB/qx/main/xcz.js
+    body_required: true
+    match: ^https?:\/\/photoby\.hasmash\.com\/auth\/member
+    script_url: https://raw.githubusercontent.com/AlookB/qx/main/xcz.js
+    body_required: true
 - http_response:
     name: 微信屏蔽URL解锁
     match: ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
@@ -69,6 +74,8 @@ mitm:
   - spclient.wg.spotify.com
   #PS
   - lcs-mobile-cops.adobe.io
+  #边框水印大师
+  - photoby.hasmash.com
   #微信屏蔽URL解锁
   - weixin110.qq.com
   - security.wechat.com
