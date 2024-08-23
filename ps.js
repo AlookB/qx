@@ -1,7 +1,7 @@
 App: PS
 
 [rewrite_local]
-https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/PureLibro.js
+https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/ps.js
 
 [mitm] 
 hostname = lcs-mobile-cops.adobe.io
