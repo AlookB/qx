@@ -12,10 +12,7 @@ hostname = lchttpapi.xczim.com
 
 
 
-var body = $response.body;
-body = body.replace(/premiumMembership\":false/g, 'premiumMembership":true');
-body = body.replace(/lifetimeMembership\":false/g, 'lifetimeMembership":true');
-body = body.replace(/membership\":false/g, 'membership":true');
-body = body.replace(/coins\":\d+/g, 'coins":99999');
-body = body.replace(/result\":false/g, 'result":true');
-$done(body);
+var ania = JSON.parse($response.body);
+ania.membership = true;
+ania.lifetimeMembership = true;
+$done({ body: JSON.stringify(ania) });
