@@ -3,11 +3,11 @@ description: 优雅老师自用去广告合集
 homepage: https://raw.githubusercontent.com/AlookB/qx/main/hj.yaml
 
 map_locals:
-  #乘车码小程序
+  name: 乘车码小程序
 - match: ^https:\/\/wlx\.tenpay\.com\/cgi-bin\/wx\/common\/ccm_config_from_growth_platform.cgi
   body: ''map_locals:
 
-  #联通营业厅小程序
+  name: 联通营业厅小程序
 - match: ^https:\/\/mina\.10010\.com\/wxapplet\/weixinNew\/queryGoodsGeneral
   body: ''
 map_locals:
