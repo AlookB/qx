@@ -10,7 +10,7 @@ map_locals:
   status_code: 200
   binary: false
 - match: ^https:\/\/wlx\.tenpay\.com\/cgi-bin\/wx\/common\/ccm_config_from_growth_platform.cgi
-  script_url: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/gj.txt
+  url: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/gj.txt
   binary: false
 
     
