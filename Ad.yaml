@@ -13,7 +13,7 @@ map_locals:
 - match: ^https:\/\/wlx\.tenpay\.com\/cgi-bin\/wx\/common\/ccm_config_from_growth_platform.cgi
   to: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/gj.txt
   binary: false
-    
+  
 mitm:
   hostnames:
   #乘车码小程序
