@@ -4,7 +4,7 @@ homepage: https://raw.githubusercontent.com/AlookB/qx/main/hj.yaml
 
 
 
-map locals:
+map_locals:
 - match: ^https:\/\/mina\.10010\.com\/wxapplet\/weixinNew\/zopGoodNumberQuery
   status_code: 200
   binary: false
