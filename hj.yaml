@@ -4,11 +4,6 @@ homepage: https://raw.githubusercontent.com/AlookB/qx/main/hj.yaml
 
 scriptings:
 - http_response:
-    name: 读不舍手 VIP
-    match: ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$)
-    script_url: https://raw.githubusercontent.com/AlookB/qx/main/dbss.js
-    body_required: true
-- http_response:
     name: 小日常 VIP
     match: ^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/xxg.js
@@ -63,7 +58,6 @@ scriptings:
     
 mitm:
   hostnames:
-  - api.revenuecat.com
   #小日常
   - xianbeikeji.com
   #西窗烛
