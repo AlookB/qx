@@ -50,8 +50,12 @@ scriptings:
     script_url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
     timeout: 60
     body_required: true
-    
-
+- http_response:  
+    name:  朝暮计划
+    match: ^^https:\/\/app\.zomoplan\.com\/zhaoMuPlan\/user\/info
+    script_url: https://raw.githubusercontent.com/afengye/QX/main/zmjh.js
+    timeout: 60
+    body_required: true
 
     
 
@@ -76,5 +80,7 @@ mitm:
   - weixin110.qq.com
   - security.wechat.com
   #云听
-  
 
+
+  #朝暮计划
+  - app.zomoplan.com
