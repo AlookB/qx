@@ -6,8 +6,7 @@ App：我的日记
 
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/AlookB/qx/main/Proknockout.js
-
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://github.com/AlookB/qx/blob/main/wdrj.js
 [mitm] 
 
 hostname = buy.itunes.apple.com
