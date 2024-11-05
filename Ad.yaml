@@ -31,6 +31,7 @@ mitm:
   hostnames:
   #乘车码小程序
   - wlx.tenpay.com
+  - ccmcx.tenpay.com
   #联通营业厅小程序
   - mina.10010.com
   #it之家小程序
