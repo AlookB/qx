@@ -13,6 +13,19 @@ map_locals:
 - match: ^https:\/\/wlx\.tenpay\.com\/cgi-bin\/wx\/common\/ccm_config_from_growth_platform.cgi
   to: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/gj.txt
   binary: false
+
+  
+body_rewrites:
+#it之家双十一Ad
+- response_jq:
+    match: ^https:\/\/dat\.ruanmei\.com\/ithome\/upgrade-weixin\.json
+    filter: del(.hongbao)
+#乘车码实时公交去打车ad
+- response_jq:
+    match: ^https:\/\/ccmcx\.tenpay\.com\/cgi-bin\/ccmcx\/ccmcx_bus_index\.cgi
+    filter: del(.taxi_card)
+
+  
   
 mitm:
   hostnames:
@@ -20,3 +33,5 @@ mitm:
   - wlx.tenpay.com
   #联通营业厅小程序
   - mina.10010.com
+  #it之家小程序
+  - dat.ruanmei.com
