@@ -1,8 +1,9 @@
 name: 🐿🚫AD
 description: 优雅老师自用去广告合集
-homepage: https://raw.githubusercontent.com/AlookB/qx/main/hj.yaml
+homepage: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/Ad.yaml
 
 map_locals:
+#联通小程序去广告
 - match: ^https:\/\/mina\.10010\.com\/wxapplet\/weixinNew\/zopGoodNumberQuery
   status_code: 200
   binary: false
@@ -10,6 +11,7 @@ map_locals:
   to: ''
   status_code: 200
   binary: false
+#乘车码修改首页 Tab
 - match: ^https:\/\/wlx\.tenpay\.com\/cgi-bin\/wx\/common\/ccm_config_from_growth_platform.cgi
   to: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/gj.txt
   binary: false
