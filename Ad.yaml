@@ -22,7 +22,6 @@ map_locals:
   binary: false
   
 body_rewrites:
-
 #乘车码实时公交去打车ad
 - response_jq:
     match: ^https:\/\/ccmcx\.tenpay\.com\/cgi-bin\/ccmcx\/ccmcx_bus_index\.cgi
