@@ -1,9 +1,10 @@
-name: 🐿🚫AD
+name: 小松鼠🐿——去广告
 description: 优雅老师自用去广告合集
 homepage: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/Ad.yaml
 
 
 rules:
+#微信公众号去Ad
   - domain:
       match: mp.weixin.qq.com
       policy: REJECT
