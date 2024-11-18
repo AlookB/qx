@@ -2,6 +2,13 @@ name: 🐿🚫AD
 description: 优雅老师自用去广告合集
 homepage: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/Ad.yaml
 
+
+rules:
+  - domain:
+      match: mp.weixin.qq.com
+      policy: REJECT
+
+
 map_locals:
 - match: ^https:\/\/mina\.10010\.com\/wxapplet\/weixinNew\/zopGoodNumberQuery
   status_code: 200
@@ -15,17 +22,13 @@ map_locals:
   binary: false
   
 body_rewrites:
-#it之家双十一Ad
-- response_jq:
-    match: ^https:\/\/dat\.ruanmei\.com\/ithome\/upgrade-weixin\.json
-    filter: del(.hongbao)
+
 #乘车码实时公交去打车ad
 - response_jq:
     match: ^https:\/\/ccmcx\.tenpay\.com\/cgi-bin\/ccmcx\/ccmcx_bus_index\.cgi
     filter: del(.taxi_card)
 
-  
-  
+   
 mitm:
   hostnames:
   #乘车码小程序
@@ -33,5 +36,3 @@ mitm:
   - ccmcx.tenpay.com
   #联通营业厅小程序
   - mina.10010.com
-  #it之家小程序
-  - dat.ruanmei.com
