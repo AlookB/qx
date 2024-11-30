@@ -51,8 +51,8 @@ scriptings:
     timeout: 60
     body_required: true
 body_rewrites:
-#Moon 日记VIP
 - response_jq:
+    name: Moon日记 VIP
     match: ^https:\/\/diary\.aiyouaiyou\.cn\/account\/api\/user\/userInfo
     filter: .returnJSON.userType = 2
     
