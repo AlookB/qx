@@ -50,7 +50,12 @@ scriptings:
     script_url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
     timeout: 60
     body_required: true
-
+    
+body_rewrites:
+#Moon 日记VIP
+- response_jq:
+    match: ^https:\/\/diary\.aiyouaiyou\.cn\/account\/api\/user\/userInfo
+    filter: .returnJSON.userType = 2
     
 
     
@@ -73,4 +78,5 @@ mitm:
   #微信屏蔽URL解锁
   - weixin110.qq.com
   - security.wechat.com
-  #云听
+  #Moon
+  - diary.aiyouaiyou.cn
