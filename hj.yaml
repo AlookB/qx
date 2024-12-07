@@ -30,11 +30,6 @@ scriptings:
     body_required: true
     binary_body: true
 - http_response:
-    name:  PS VIP
-    match: https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3
-    script_url: https://raw.githubusercontent.com/AlookB/qx/main/ps.js
-    body_required: true
-- http_response:
     name: 边框水印大师 VIP
     match: ^https?:\/\/photoby\.hasmash\.com\/app\/browseEvent
     script_url: https://raw.githubusercontent.com/AlookB/qx/main/bksy.js
