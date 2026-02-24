@@ -1,3 +1,16 @@
+rewrite_local]
+
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/Prokout.js
+
+[mitm] 
+
+hostname = buy.itunes.apple.com
+
+*******************************/
+
+var objc = JSON.parse($response.body);
+
+    objc = 
 {
   "message": "成功!",
   "result": {
@@ -7,3 +20,5 @@
   },
   "code": "00000"
 }
+
+$done({body : JSON.stringify(objc)});
