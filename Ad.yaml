@@ -28,13 +28,6 @@ body_rewrites:
     filter: .newslist |= map(select(.aid != 1))
     
 
-  
-body_rewrites:
-#乘车码实时公交去打车ad
-- response_jq:
-    match: ^https:\/\/ccmcx\.tenpay\.com\/cgi-bin\/ccmcx\/ccmcx_bus_index\.cgi
-    filter: del(.taxi_card)
-
     
 
 mitm:
@@ -45,3 +38,5 @@ mitm:
   #联通营业厅小程序
   - mina.10010.com
   - ccmsupport-sz.tenpay.com
+
+  - api.ithome.com
