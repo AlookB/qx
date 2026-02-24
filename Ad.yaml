@@ -14,6 +14,19 @@ map_locals:
 - match: ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi
   status_code: 200
   binary: false
+- match: ^https:\/\/photoby\.hasmash\.com\/banners
+  status_code: 200
+  binary: false
+  
+body_rewrites:
+#乘车码实时公交去打车ad
+- response_jq:
+    match: ^https:\/\/ccmcx\.tenpay\.com\/cgi-bin\/ccmcx\/ccmcx_bus_index\.cgi
+    filter: del(.taxi_card)
+- response_jq:
+    match: ^https:\/\/api\.ithome\.com\/json\/.*
+    filter: .newslist |= map(select(.aid != 1))
+    
 
   
 body_rewrites:
