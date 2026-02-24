@@ -1,6 +1,6 @@
 rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/Prokout.js
+^https:\/\/photoby\.hasmash\.com\/auth\/member url script-response-body https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/Prokout.js
 
 [mitm] 
 
