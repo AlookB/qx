@@ -1,6 +1,7 @@
+/*
 rewrite_local]
 
-^https:\/\/photoby\.hasmash\.com\/auth\/member url script-response-body https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/Prokout.js
+^https:\/\/photoby\.hasmash\.com\/auth\/member url script-response-body https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/bksyds.js
 
 [mitm] 
 
