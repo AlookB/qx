@@ -1,6 +1,12 @@
 name: 🐿小松鼠解锁合集
-description: 优雅老师自用解锁合集包含：小日常、西窗烛、Spotify、PS、边框水印大师App解锁VIP。
+description: 优雅老师自用解锁合集包含：小日常、did、 西窗烛、Spotify、PS、边框水印大师App解锁VIP。
 homepage: https://raw.githubusercontent.com/AlookB/qx/main/hj.yaml
+
+
+body_rewrites:
+- response_jq:
+    match: ^https:\/\/dida365\.com\/api\/v2\/user\/status
+    filter: .pro = true | .proEndDate = "2099-09-09T00:00:00.000+0000"
 
 scriptings:
 - http_response:
@@ -58,3 +64,5 @@ mitm:
   #微信屏蔽URL解锁
   - weixin110.qq.com
   - security.wechat.com
+  #dida
+  - dida365.com
