@@ -51,10 +51,6 @@ mitm:
   - xianbeikeji.com
   #西窗烛
   - lchttpapi.xczim.com
-  #美图
-  - api.posters.meitu.com
-  - api-sub.meitu.com
-  - '*.xiuxiu.meitu.com'
   #Spotify
   - spclient.wg.spotify.com
   #PS
