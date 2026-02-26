@@ -7,14 +7,6 @@ map_locals:
     status_code: 200
     binary: false
 
-  - match: ^https:\/\/wlx\.tenpay\.com\/cgi-bin\/wx\/common\/ccm_config_from_growth_platform.cgi
-    to: https://raw.githubusercontent.com/AlookB/qx/refs/heads/main/gj.txt
-    binary: false
-
-  - match: ^https:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi
-    status_code: 200
-    binary: false
-
   - match: ^https:\/\/photoby\.hasmash\.com\/banners
     status_code: 200
     binary: false
@@ -32,10 +24,8 @@ body_rewrites:
 mitm:
   hostnames:
     # 乘车码小程序
-    - wlx.tenpay.com
     - ccmcx.tenpay.com
 
     # 联通营业厅小程序
     - mina.10010.com
-    - ccmsupport-sz.tenpay.com
     - api.ithome.com
