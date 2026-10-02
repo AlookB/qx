@@ -5,8 +5,8 @@
 **Quantumult X 自用规则集 · App 解锁 + 去广告**
 
 ![Platform](https://img.shields.io/badge/Quantumult_X-iOS-black?logo=apple&logoColor=white)
-![Last Commit](https://img.shields.io/github/last-commit/AlookB/qx?label=更新&color=blue)
-![Use](https://img.shields.io/badge/用途-仅供学习交流-orange)
+![Last Commit](https://img.shields.io/github/last-commit/AlookB/qx?label=%E6%9B%B4%E6%96%B0&color=blue)
+![Use](https://img.shields.io/badge/%E7%94%A8%E9%80%94-%E4%BB%85%E4%BE%9B%E5%AD%A6%E4%B9%A0%E4%BA%A4%E6%B5%81-orange)
 
 <sub>仅供学习交流 · 下载后请于 24 小时内删除 · 禁止商业用途</sub>
 
